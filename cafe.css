@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+.body{
+    background-image: url(https://images.unsplash.com/photo-1521017432531-fbd92d768814?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    /* background-position: unset; */
+    height: 100vh;
+}
+.navbar{
+    width: 100%;
+    /* height: 50%; */
+    /* padding-bottom: 5%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* position:fixed; */
+    background-color: rgb(6, 6, 6);
+}
+.quote marquee{
+    width: 100%;
+    margin-top: 1pt;
+    /* position: fixed; */
+    color: white;
+    background-color: black;
+    font-family: "Brush Script MT", cursive;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 40px;
+    position: relative;
+    font-size: larger;
+    font-weight: bolder;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(250, 246, 247);
+}
+.navbar ul button{
+    color: rgb(252, 249, 252);
+    background-color: rgb(242, 161, 203);
+    font-family: 'Times New Roman';
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 16px;
+}
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+} 
+.button:hover span {
+    padding-right: 25px;
+} 
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.para{
+    /* opacity: 0.3; */
+    color: rgba(248, 241, 241, 0.989);
+    word-wrap: break-word;
+    background-color: rgba(245, 245, 245, 0.116);
+    border: 1px solid rgba(74, 65, 65, 0.404);
+    align-items: center;
+    justify-content:center;
+    font-weight: bold;
+    /* margin-top: 1%; */
+    margin-left: 22%;
+    margin-right: 24%;
+}
+.title{
+    /* opacity: 0.4; */
+    color: rgb(71, 14, 14);
+    word-wrap: break-word;
+    background-color: rgba(245, 245, 245, 0.187);
+    border: 1px rgba(74, 65, 65, 0.404);
+    align-items: center;
+    justify-content:center;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-top: 13%;
+    margin-left: 22%;
+    margin-right: 24%;
+    text-underline-position: below;
+    margin-bottom: 3pt;
+    padding-left: 20%;
+    font-family: 'Brush Script MT', cursive;
+    text-underline-position: below;
+}
+.bg{
+    background-color: rgba(74, 65, 65, 0.404);
+}
+.about{
+    width: fit-content;
+    color: whitesmoke;
+    font-size: large;
+    font-weight: bold;
+    background-color: black;
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin-left: 40%;
+    border-radius: 16px;
+    text-align: center;
+}
+p{
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    align-content: center;
+    /* background-color: rgba(74, 65, 65, 0.404); */
+}
+img{
+    margin-left: 10%;
+    border: 1px solid rgba(74, 65, 65, 0.404);
+}
+.evt{
+    background-color: rgba(74, 65, 65, 0.34);
+}
+.events{
+    width: fit-content;
+    color: whitesmoke;
+    font-size: large;
+    font-weight: bold;
+    background-color: black;
+    margin-left: 48%;
+    border-radius: 16px;
+}
+.me{
+    width: fit-content;
+    color: whitesmoke;
+    font-size: large;
+    font-weight: bold;
+    background-color: black;
+    margin-left: 48%;
+    border-radius: 5px;
+}
+.menu{
+    background-color: rgba(74, 65, 65, 0.272);
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    /* transition: 0.3s; */
+    width: 20%;
+    margin: 3px;
+}
+.container1{
+    padding: 3px 16px;
+}
+.btn{
+    color: whitesmoke;
+    background-color: black;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.ctus{
+    background-color: rgba(74, 65, 65, 0.34);
+}
+.ct{
+    width: fit-content;
+    color: whitesmoke;
+    font-size: large;
+    font-weight: bold;
+    background-color: black;
+    margin-left: 46%;
+    border-radius: 3px;
+}
+.container3{
+    display: flex;
+    inline-size: 1px;
+    border-radius: 16px;
+    justify-content: space-between;
+    padding-left: 43%;
+}
+fieldset{
+    padding-left: 10%;
+}
+.end{
+    padding-left: 38%;
+}
+@media screen and (max-width: 700px) {
+    body{
+        background-color: rgba(245, 245, 245, 0.221);
+    }
+}
